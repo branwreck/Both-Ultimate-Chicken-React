@@ -8,8 +8,8 @@ const Page = (props) => {
   return (
     <div className="page-container">
       <Helmet>
-        <title>Page - Both Ultimate Chicken</title>
-        <meta property="og:title" content="Page - Both Ultimate Chicken" />
+        <title>Page - Brandon Rodrigues</title>
+        <meta property="og:title" content="Page - Brandon Rodrigues" />
       </Helmet>
       <div className="page-container1"></div>
     </div>

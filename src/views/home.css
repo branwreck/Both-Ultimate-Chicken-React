@@ -42,31 +42,12 @@
   font-family: "Raleway";
   line-height: 1.6;
 }
-.home-hero-sub-heading {
-  color: var(--dl-color-gray-white);
-  font-size: 18px;
-  text-align: center;
-  line-height: 1.6;
-}
 .home-btn-group {
   gap: var(--dl-space-space-oneandhalfunits);
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   align-items: center;
   flex-direction: row;
-}
-.home-hero-button2 {
-  color: var(--dl-color-gray-white);
-  transition: 0.3s;
-  font-weight: bold;
-  padding-top: var(--dl-space-space-unit);
-  border-color: transparent;
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-unit);
-  background-color: transparent;
-}
-.home-hero-button2:hover {
-  border-color: var(--dl-color-gray-white);
 }
 .home-details {
   flex: 0 0 auto;
@@ -93,12 +74,6 @@
   align-items: flex-start;
   flex-direction: column;
   justify-content: flex-start;
-}
-.home-text {
-  color: var(--dl-color-primary1-blue80);
-  text-align: left;
-  font-family: "Raleway";
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
 .home-details-heading {
   width: 80%;
@@ -164,6 +139,7 @@
   border-radius: 45px;
   padding-right: 3rem;
   padding-bottom: 1.5rem;
+  text-decoration: none;
   background-color: var(--dl-color-primary1-blue100);
 }
 .home-banner-button:hover {
@@ -205,17 +181,17 @@
   flex-direction: column;
   justify-content: flex-start;
 }
-.home-text03 {
+.home-text {
   color: var(--dl-color-primary1-blue80);
   font-family: "Raleway";
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text06 {
+.home-text03 {
   font-family: "Raleway";
   line-height: 1.6;
   margin-bottom: var(--dl-space-space-oneandhalfunits);
 }
-.home-text07 {
+.home-text04 {
   color: var(--dl-color-gray-800);
   font-size: 18px;
   text-align: left;
@@ -263,14 +239,11 @@
 }
 .home-nav {
   flex: 0 0 auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
   margin-top: 0px;
   align-items: center;
   flex-direction: row;
-}
-.home-nav2 {
-  color: var(--dl-color-secondary-gray500);
-  margin-left: var(--dl-space-space-unit);
 }
 .home-separator {
   flex: 0 0 auto;
@@ -298,7 +271,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.home-text24 {
+.home-text15 {
   color: var(--dl-color-secondary-gray500);
 }
 @media(max-width: 991px) {
@@ -314,11 +287,6 @@
   .home-hero-heading {
     text-align: center;
   }
-  .home-hero-sub-heading {
-    text-align: center;
-    padding-left: var(--dl-space-space-threeunits);
-    padding-right: var(--dl-space-space-threeunits);
-  }
   .home-details-sub-heading {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
@@ -327,7 +295,7 @@
   .home-banner-sub-heading {
     max-width: 100%;
   }
-  .home-text07 {
+  .home-text04 {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
@@ -337,10 +305,6 @@
   .home-hero1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
-  }
-  .home-hero-sub-heading {
-    padding-left: var(--dl-space-space-unit);
-    padding-right: var(--dl-space-space-unit);
   }
   .home-details1 {
     align-items: center;
@@ -352,9 +316,6 @@
   .home-container2 {
     align-items: center;
     justify-content: flex-start;
-  }
-  .home-text {
-    text-align: center;
   }
   .home-details-heading {
     text-align: center;
@@ -387,7 +348,7 @@
     align-items: center;
     justify-content: center;
   }
-  .home-text07 {
+  .home-text04 {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
@@ -406,7 +367,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text24 {
+  .home-text15 {
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
 }
@@ -422,10 +383,6 @@
   }
   .home-btn-group {
     flex-direction: column;
-  }
-  .home-hero-button2 {
-    margin-top: var(--dl-space-space-unit);
-    margin-left: 0px;
   }
   .home-banner1 {
     padding-top: var(--dl-space-space-twounits);
@@ -445,7 +402,7 @@
     flex-direction: column;
     justify-content: space-between;
   }
-  .home-text24 {
+  .home-text15 {
     text-align: center;
     margin-bottom: var(--dl-space-space-oneandhalfunits);
   }
